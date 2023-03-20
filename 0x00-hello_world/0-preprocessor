@@ -1,1 +1,2 @@
-VimCrypt~03!Ajø—jQ.]dÞÜZ¦c~ô†×T/ÓYyMžÄ3\å*+ÑÀ“ÀTé­
+#!/bin/bash
+cpp -E "$1" > c
