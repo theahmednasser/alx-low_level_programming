@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp -E "$1" > c
+gcc -E "$1" -o c
