@@ -6,11 +6,13 @@
  *
  * @n: integer input
  *
- * Return: 1 if n is +ve, 0 if n is zero and -1 if n is -ve
+ * Return: 1 if n is +ve, 0 if n is zero and x if n is -ve
  */
 
 int print_sign(int n)
 {
+	int x = -1;
+
 	if (n > 0)
 	{
 		return (1);
@@ -23,7 +25,7 @@ int print_sign(int n)
 	}
 	if (n < 0)
 	{
-		return (-1);
+		return (x);
 		_putchar('-');
 	}
 }
