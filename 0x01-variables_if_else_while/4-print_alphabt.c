@@ -11,18 +11,13 @@
  */
 int main(void)
 {
-	int n;
+	char i;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-
-	if (n == 0)
-		printf("%d is zero\n", n);
-	if (n < 0)
-		printf("%d is negative\n", n);
-	if (n > 0)
-		printf("%d is positive\n", n);
-
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		if (i != 'q' && i != 'e')
+			putchar(i);
+	}
+	putchar('\n');
 	return (0);
 }

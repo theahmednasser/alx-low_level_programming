@@ -11,18 +11,21 @@
  */
 int main(void)
 {
-	int n;
+	int i, j;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-
-	if (n == 0)
-		printf("%d is zero\n", n);
-	if (n < 0)
-		printf("%d is negative\n", n);
-	if (n > 0)
-		printf("%d is positive\n", n);
-
+	for (i = 48; i <= 57; i++)
+	{
+		for (j = i + 1; j <= 57; j++)
+		{
+			putchar(i);
+			putchar(j);
+			if (!(i == 56 && j == 57))
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
 	return (0);
 }
