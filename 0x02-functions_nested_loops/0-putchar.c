@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * main - start of program
- * return value is always 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
