@@ -6,10 +6,13 @@
  *
  * @n: integer input
  *
- * Return: the last digit of n
+ * Return: the last digit of x
  */
 
 int print_last_digit(int n)
 {
-	return (n % 10);
+	int x = n % 10;
+
+	printf("%d", x);
+	return (x);
 }
