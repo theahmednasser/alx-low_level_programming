@@ -18,6 +18,6 @@ void times_table(void)
 			prdt = i * j;
 			printf("%d, ", prdt);
 		}
-		_putchar('\n');
+		printf("\n");
 	}
 }
